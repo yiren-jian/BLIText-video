@@ -19,6 +19,10 @@ pip install -e .
 
 The experiments are carried out on a single RTX-A6000. We provide our environment in `pip_freeze.txt`, for closely reproducing of our results. 
 
+```
+pip install -r pip_freeze.txt
+```
+
 ## Data Preparation
 I3D features of VATEX can be downloaded from [VATEX](https://eric-xw.github.io/vatex-website/download.html).
 
