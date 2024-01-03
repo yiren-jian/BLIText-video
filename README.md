@@ -27,7 +27,14 @@ pip install -r pip_freeze.txt
 I3D features of VATEX can be downloaded from [VATEX](https://eric-xw.github.io/vatex-website/download.html).
 
 ## Pre-trained Models
-For video captioning, we use a P-former pretrained with 40M data (>12M). The pretrained P-former and the captioner weights will be released soon.
+~~For video captioning, we use a P-former pretrained with 40M data (>12M). The pretrained P-former and the captioner weights will be released soon.~~
+
+Please use the pretrained models from [here](https://www.dropbox.com/scl/fo/wkssgsqbqj7qqqcwlxkwp/h?rlkey=33ydfikubq6kaun74uf7lm9ge&dl=0).
+
+P-former: `models/ours/pformer/checkpoint_60000.pth`.
+Stage 1: `models/ours/Caption_vatex_stage1`.
+Stage 2: `models/ours/Caption_vatex_stage2`.
+You will find the generated captions here: `models/ours/Caption_vatex_stage2/20240102015/result`.
 
 ## Training
 stage 1
