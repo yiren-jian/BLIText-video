@@ -31,10 +31,10 @@ I3D features of VATEX can be downloaded from [VATEX](https://eric-xw.github.io/v
 
 Please use the pretrained models from [here](https://www.dropbox.com/scl/fo/wkssgsqbqj7qqqcwlxkwp/h?rlkey=33ydfikubq6kaun74uf7lm9ge&dl=0).
 
-P-former: `models/ours/pformer/checkpoint_60000.pth`.
-Stage 1: `models/ours/Caption_vatex_stage1`.
-Stage 2: `models/ours/Caption_vatex_stage2`.
-You will find the generated captions here: `models/ours/Caption_vatex_stage2/20240102015/result`.
+- [x] P-former: `models/ours/pformer/checkpoint_60000.pth`.
+- [x] Stage 1: `models/ours/Caption_vatex_stage1`.
+- [x] Stage 2: `models/ours/Caption_vatex_stage2`.
+- [x] You will find the generated captions here: `models/ours/Caption_vatex_stage2/20240102015/result`.
 
 ## Training
 stage 1
